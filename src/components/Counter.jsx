@@ -18,7 +18,11 @@ const Counter = () => {
                         : { backgroundColor: '#7bccf8' }
                 }
             >
-                {mode ? <p>Es ist Nacht ! 🌚</p> : <p> Es ist Tag ! ☀️</p>}
+                {mode ? (
+                    <p className="night">Es ist Nacht ! 🌚</p>
+                ) : (
+                    <p> Es ist Tag ! ☀️</p>
+                )}
                 <button onClick={changeMode}>
                     {mode ? 'Wechsel zu Tag' : 'Wechsel zu Nacht'}
                 </button>
