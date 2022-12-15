@@ -1,10 +1,10 @@
 import './App.css';
-import Counter from './components/Counter';
+import Modus from './components/Modus';
 
 function App() {
     return (
         <div className="App">
-            <Counter />
+            <Modus />
         </div>
     );
 }

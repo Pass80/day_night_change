@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './Counter.css';
+import './Modus.css';
 
-const Counter = () => {
+const Modus = () => {
     const [mode, setMode] = useState(false);
 
     const changeMode = () => {
@@ -31,4 +31,4 @@ const Counter = () => {
     );
 };
 
-export default Counter;
+export default Modus;
