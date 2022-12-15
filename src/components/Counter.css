@@ -1,0 +1,12 @@
+.tag {
+    width: 50%;
+    background-color: #7bccf8;
+    margin-inline: auto;
+    margin-top: 4rem;
+    padding: 3rem;
+    transition: all 0.3s ease-in;
+}
+
+.night {
+    color: #fff;
+}
